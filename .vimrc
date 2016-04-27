@@ -34,7 +34,6 @@ Plug 'valloric/YouCompleteMe'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 
 
 
