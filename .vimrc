@@ -10,11 +10,19 @@ syntax enable
 filetype plugin on
 filetype indent on
 
-set tabstop=2
-set shiftwidth=2
-set smarttab
+
 set expandtab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set smarttab
 set mouse=a
+set smartindent
+set autoindent
+
+autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
+
+
 
 set background=dark
 " solarized options 
