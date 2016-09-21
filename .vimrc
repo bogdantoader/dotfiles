@@ -20,6 +20,18 @@ set mouse=a
 set smartindent
 set autoindent
 
+" enable spellchecking for latex files
+" autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=en_gb
+
+" use Skim when opening file from LatexBox
+let g:LatexBox_viewer = "open -a Skim.app"
+let g:LatexBox_split_width = 45
+let g:LatexBox_quickfix = 2
+
+" map <leader> l to save+compile
+autocmd FileType tex map <buffer> <Leader>l :w<CR><Localleader>ll
+
+" tab marker - good for python files
 let g:tex_conceal = ""
 let g:indentLine_char = '┆'
 let g:indentLine_color_gui = '#444444'
@@ -43,6 +55,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-dispatch'
 Plug 'Yggdroot/indentLine'
+Plug 'LaTeX-Box-Team/LaTeX-Box'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
