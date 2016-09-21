@@ -28,8 +28,8 @@ let g:LatexBox_viewer = "open -a Skim.app"
 let g:LatexBox_split_width = 45
 let g:LatexBox_quickfix = 2
 
-" map <leader> l to save+compile
-autocmd FileType tex map <buffer> <Leader>l :w<CR><Localleader>ll
+" map <localleader> + s  to save+compile
+autocmd FileType tex map <buffer> <Localleader>s :w<CR><Localleader>ll
 
 " tab marker - good for python files
 let g:tex_conceal = ""
