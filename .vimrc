@@ -16,7 +16,6 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set smarttab
-set mouse=a
 set smartindent
 set autoindent
 
@@ -68,5 +67,10 @@ let g:airline_theme='solarized'
 
 " Turn NERDTree On/Off - Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
+
+" Mouse select copy on mac: press alt when selecting if it's just something
+" short. also:
+set mouse=a
+
 
 
