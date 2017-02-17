@@ -27,6 +27,9 @@ let g:LatexBox_viewer = "open -a Skim.app"
 let g:LatexBox_split_width = 45
 let g:LatexBox_quickfix = 2
 
+" map <localleader>
+let maplocalleader = "\<Space>"
+
 " map <localleader> + s  to save+compile
 autocmd FileType tex map <buffer> <Localleader>s :w<CR><Localleader>ll
 
