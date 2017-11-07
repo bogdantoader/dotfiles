@@ -1,0 +1,32 @@
+# ~/.tmuxinator/rp.yml
+
+# on mac, the location of this file is ./.config/tmuxinator/rp.yml,
+# so add a weak link from there to here
+
+name: rp
+root: ~/CDT-code/rp
+
+windows:
+  - paper:
+      root: ~/CDT-code/rp/Paper/
+      layout: main-vertical
+      panes:
+        -
+        -
+  - code:
+      root: ~/CDT-code/rp/Code/
+      layout: main-vertical
+      panes:
+        -
+        -
+  - notes:
+      root: ~/CDT-code/rp/DailyNotes/2017/
+      layout: main-vertical
+      panes:
+        -
+        -
+  - other:
+      layout: main-vertical
+      panes:
+        -
+        -
