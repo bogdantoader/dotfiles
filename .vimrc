@@ -43,6 +43,7 @@ autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
 
 set background=dark
+
 " solarized options 
 colorscheme solarized
 
