@@ -12,7 +12,7 @@ windows:
       layout: main-vertical
       panes:
         -
-        -
+        - git status
   - code:
       root: ~/CDT-code/rp/Code/
       layout: main-vertical
