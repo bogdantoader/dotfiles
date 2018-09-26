@@ -79,5 +79,3 @@ set mouse=a
 " folding LatexDocuments - awesome!
 " let g:LatexBox_Folding = 1
 
-
-
