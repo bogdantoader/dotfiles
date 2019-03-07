@@ -79,3 +79,8 @@ set mouse=a
 " folding LatexDocuments - awesome!
 " let g:LatexBox_Folding = 1
 
+" spich panes with ctrl+[hjkl]
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
