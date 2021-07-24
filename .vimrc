@@ -18,7 +18,8 @@ set tabstop=2
 set smarttab
 set smartindent
 set autoindent
-set colorcolumn=60
+"set colorcolumn=60
+set tw=60
 
 " enable spellchecking for latex files
 " autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=en_gb
