@@ -18,12 +18,13 @@ set tabstop=2
 set smarttab
 set smartindent
 set autoindent
+set colorcolumn=60
 
 " enable spellchecking for latex files
 " autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=en_gb
 
 " use Skim when opening file from LatexBox
-let g:LatexBox_viewer = "open -a Skim.app"
+" let g:LatexBox_viewer = "open -a Skim.app"
 let g:LatexBox_split_width = 45
 let g:LatexBox_quickfix = 2
 
@@ -40,7 +41,7 @@ let g:indentLine_color_gui = '#444444'
 
 autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
-
+let g:solarized_termcolors=256
 
 set background=dark
 
