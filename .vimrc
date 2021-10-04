@@ -17,8 +17,9 @@ set tabstop=2
 set smarttab
 set smartindent
 set autoindent
-"set colorcolumn=60
-set tw=60
+set nohlsearch
+"set colorcolumn=80
+"set tw=80
 
 " enable spellchecking for latex files
 " autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=en_gb
@@ -42,7 +43,8 @@ let g:indentLine_color_gui = '#444444'
 autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
 let g:solarized_termcolors=16
-set background=dark
+"set background=dark
+set background=light
 
 " solarized options 
 colorscheme solarized
@@ -63,8 +65,6 @@ Plug 'LaTeX-Box-Team/LaTeX-Box'
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
-
-
 call plug#end()
 
 let g:airline_theme='solarized'
@@ -84,3 +84,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+au BufNewFile,BufRead *.py
+  \ set tabstop=4 |
+  \ set softtabstop=4 |
+  \ set shiftwidth=4 |
+  \ set textwidth=79 |
+  \ set expandtab |
+  \ set autoindent |
+  \ set fileformat=unix
