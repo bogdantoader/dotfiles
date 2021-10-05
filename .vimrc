@@ -40,8 +40,6 @@ let g:tex_conceal = ""
 let g:indentLine_char = '┆'
 let g:indentLine_color_gui = '#444444'
 
-autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
-
 let g:solarized_termcolors=16
 "set background=dark
 set background=light
