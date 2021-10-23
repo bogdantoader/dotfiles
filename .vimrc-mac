@@ -6,6 +6,8 @@ call pathogen#helptags()
 
 set nu
 syntax on 
+set splitright
+set splitbelow
 
 filetype plugin on
 filetype indent on
