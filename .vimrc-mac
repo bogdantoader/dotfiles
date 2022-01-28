@@ -59,7 +59,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-dispatch'
 Plug 'Yggdroot/indentLine'
 Plug 'LaTeX-Box-Team/LaTeX-Box'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 
 " On-demand loading
@@ -88,7 +88,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 au BufNewFile,BufRead *.py
-  \ set textwidth=79 |
   \ set fileformat=unix
 
 "Some things required by coc-nvim
