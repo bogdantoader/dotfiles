@@ -36,8 +36,8 @@ let maplocalleader = "\<Space>"
 " map <localleader> + s  to save+compile
 autocmd FileType tex map <buffer> <Localleader>s :w<CR><Localleader>ll
 
-" no search highlight after pressing esc
-map <esc> :noh <CR>
+" no search highlight
+:set nohlsearch 
 
 " tab marker - good for python files
 let g:tex_conceal = ""
