@@ -62,7 +62,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-dispatch'
 Plug 'Yggdroot/indentLine'
 Plug 'LaTeX-Box-Team/LaTeX-Box'
-Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " On-demand loading
