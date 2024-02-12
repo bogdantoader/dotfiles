@@ -18,6 +18,9 @@ set smarttab
 set smartindent
 set autoindent
 set nohlsearch
+set splitright
+set splitbelow
+
 "set colorcolumn=80
 "set tw=80
 
@@ -40,9 +43,9 @@ let g:tex_conceal = ""
 let g:indentLine_char = '┆'
 let g:indentLine_color_gui = '#444444'
 
-let g:solarized_termcolors=16
-"set background=dark
-set background=light
+" let g:solarized_termcolors=16
+set background=dark
+"set background=light
 
 " solarized options 
 colorscheme solarized
@@ -86,3 +89,6 @@ nnoremap <C-H> <C-W><C-H>
 au BufNewFile,BufRead *.py
   \ set textwidth=79 |
   \ set fileformat=unix
+
+" :hi LineNr NONE
+
