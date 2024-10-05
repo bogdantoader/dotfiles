@@ -48,7 +48,7 @@ set background=dark
 "set background=light
 
 " solarized options 
-colorscheme solarized
+" colorscheme solarized
 
 set guifont=12
 
