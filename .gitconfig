@@ -11,3 +11,5 @@
 
 
 
+[http]
+	postBuffer = 10000000
