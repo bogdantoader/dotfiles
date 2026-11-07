@@ -10,3 +10,5 @@
     lg = lg1
 [http]
 	postBuffer = 10000000
+[fetch]
+	prune = true
